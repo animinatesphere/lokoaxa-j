@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ProductDetail = () => {
   const [quantity, setQuantity] = useState(1);
   const [selectedColor, setSelectedColor] = useState('pink');
-  const [selectedSize, setSelectedSize] = useState('Medium size');
+  const [selectedSize] = useState('Medium size');
   const [showToast, setShowToast] = useState(false);
 
   const colors = [
