@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+body {
+  font-family: "Inter", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+.hat {
+  font-family: "Red Hat Display", sans-serif;
+}
+.me {
+  background-image: url(../src/assets/Frame\ 2131332073.png);
+}
+.me1 {
+  background-image: url(../src/assets/Frame\ 2131332073\ \(2\).png);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
